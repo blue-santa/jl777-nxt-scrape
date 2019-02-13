@@ -1,0 +1,19 @@
+{
+  "name": "jl777-nxt-scrape",
+  "version": "1.0.0",
+  "description": "Scraping JL777's posts from NXT forum",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/siddhartha-crypto/jl777-nxt-scrape.git"
+  },
+  "author": "siddhartha-crypto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siddhartha-crypto/jl777-nxt-scrape/issues"
+  },
+  "homepage": "https://github.com/siddhartha-crypto/jl777-nxt-scrape#readme"
+}
