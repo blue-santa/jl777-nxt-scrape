@@ -4,7 +4,8 @@
   "description": "Scraping JL777's posts from NXT forum",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon ./src/server.js"
+    "test": "export NODE_ENV=test && jasmine",
+    "start": "nodemon ./src/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/siddhartha-crypto/jl777-nxt-scrape/issues"
   },
-  "homepage": "https://github.com/siddhartha-crypto/jl777-nxt-scrape#readme"
+  "homepage": "https://github.com/siddhartha-crypto/jl777-nxt-scrape#readme",
+  "devDependencies": {
+    "jasmine": "^3.3.1",
+    "request": "^2.88.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
 }
