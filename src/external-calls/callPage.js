@@ -6,15 +6,14 @@ const fs = require('fs')
 
 const writeDir = path.join(__dirname + '/files/')
 
-
-const base = 'https://bitcointalk.org/index.php?action=profile;u=177323;sa=showPosts;start=' 
+const base = 'https://bitcointalk.org/index.php?action=profile;u=1037148;sa=showPosts;start=' 
 
 const catchMeIfYouCan = path.join(__dirname + '../assets/catch-me-if-you-can-title.mp3')
 
 const startTime = Date.now()
 
 let currentStats = {
-    post: 6280,
+    post: 920,
     startTime: startTime,
     lastCheck: '',
     last: false,
