@@ -6,14 +6,14 @@ const fs = require('fs')
 
 const writeDir = path.join(__dirname + '/files/')
 
-const base = 'https://bitcointalk.org/index.php?action=profile;u=1037148;sa=showPosts;start=' 
+const base = 'https://bitcointalk.org/index.php?action=profile;u=28405;sa=showPosts;start=' 
 
 const catchMeIfYouCan = path.join(__dirname + '../assets/catch-me-if-you-can-title.mp3')
 
 const startTime = Date.now()
 
 let currentStats = {
-    post: 920,
+    post: 1620,
     startTime: startTime,
     lastCheck: '',
     last: false,
@@ -64,7 +64,7 @@ const getPage = () => {
             process.exit()
         }
 
-        fs.writeFile(writeDir + 'JL777_NXT_' + currentStats.post + '.html', body, 'utf8', (err) => {
+        fs.writeFile(writeDir + 'Tier_Nolan_BTT_' + currentStats.post + '.html', body, 'utf8', (err) => {
             if (err) throw err
             console.log(`File saved.`)
             reducePost()
